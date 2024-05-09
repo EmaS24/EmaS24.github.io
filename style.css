@@ -1,9 +1,44 @@
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 1000
+
+h1, p, li, a {
+  font-family: "DM Sans", sans-serif;
+}
+
+.topnav a {
+   float: left;
+   color: #EBA3AE;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav {
+   background-color: #FFEEF2;
+   overflow: hidden;
+}
+
+a:hover {
+  color: #EBA3AE;
+}
+
+#photopinkFlowers {
+	background: url("pinkFlowers.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	padding: 60px 0px;
+}
+
+
 body {
 	background-color: #FDE1E6;
 }
 
 h1 {
-	color
+	color: #EBA3AE;
 
 }
 
