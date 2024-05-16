@@ -1,10 +1,12 @@
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 1000
 
-h1, p, li, a {
+h1, p, li, a, ul {
   font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+
 
 .topnav a {
    float: left;
@@ -24,20 +26,35 @@ a:hover {
   color: #EBA3AE;
 }
 
-#photopinkFlowers {
-	background: url("pinkFlowers.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 300px;
-	padding: 60px 0px;
+
+#crazyAsians.png {
+   float: right;
 }
 
+
+
+#scytheBook.png {
+   float: left;
+}
+
+#murderMystery.png {
+   float: right;
+}
+
+#richPoor.png.jpg {
+   float: left;
+}
 
 body {
 	background-color: #FDE1E6;
 }
 
 h1 {
+	color: #EBA3AE;
+
+}
+
+p {
 	color: #EBA3AE;
 
 }
