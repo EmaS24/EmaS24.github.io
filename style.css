@@ -32,6 +32,7 @@ a:hover {
 }
 
 
+
 #scytheBook.png {
    float: left;
 }
@@ -45,8 +46,9 @@ a:hover {
 }
 
 body {
-	background-color: #FDE1E6;
+   background-color: #FDE1E6;
 }
+
 
 h1 {
 	color: #EBA3AE;
@@ -63,8 +65,9 @@ ul {
 }
 
 a {
-	text-decoration: none;
+   text-decoration: none;
 }
+
 
 a {
 	color: #FCC8CE;
